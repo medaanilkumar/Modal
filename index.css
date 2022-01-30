@@ -1,0 +1,55 @@
+*{
+    margin: 1px;
+}
+.btn{
+    background-color: coral;
+    color: white;
+    width: 100px;
+    height: 50px;
+}
+.modal{
+    display: none;
+    width: 400px;
+    height: auto;
+    /* border: 1px solid red; */
+    position: absolute;
+    top:5rem;
+    left: 4rem;
+    box-shadow: 0px 4px 8px 0 rgba(0,0,0,0.2);
+    overflow: auto;
+}
+.content{
+    text-align: center;
+    padding: 1rem;
+}
+.content span{
+    float: right; 
+    top: -2rem;
+    position: relative;
+    font-size: 10px;
+   
+}
+.btn:hover{
+    background-color: #333;
+    animation-name: anil;
+   animation-duration: 3s;
+   animation-timing-function: ease-in;
+   animation-delay: 2s;
+   animation-fill-mode: forwards;
+}
+#close-btn:hover{
+    color: black;
+    cursor: pointer;
+    font-size: larger;
+}
+@keyframes anil{
+    
+    from {
+        background-color:black ;
+    }
+    to{
+        background-color: red;
+    
+}
+}
+
